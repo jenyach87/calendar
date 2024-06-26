@@ -3,6 +3,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const repo = 'calendar';
 
 const nextConfig = {
+  output: 'export',
   assetPrefix: isProd ? `/${repo}/` : '',
   basePath: isProd ? `/${repo}` : '',
   images: {
