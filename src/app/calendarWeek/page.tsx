@@ -115,15 +115,6 @@ const Calendar: React.FC = () => {
             <div className="flex-1 border-b border-gray-200 overflow-y-auto">
               {renderDays()}
               {renderCells()}
-              <div className="mt-3">
-                <div className="flex justify-between items-center border-2 border-gray-200  rounded-2xl py-3 px-2">
-                  <div className="flex items-center ">
-                    <Checkbox defaultSelected radius="lg" color="primary" />
-                    <span>11:00 - 12:00</span>
-                  </div>
-                  <span>€80</span>
-                </div>
-              </div>
             </div>
             <div className="flex justify-center items-center border-t border-gray-200 w-full mt-auto">
               <Button className="h-12 w-11/12 bg-black text-white rounded-lg mt-4 mb-4">Select payment method</Button>
